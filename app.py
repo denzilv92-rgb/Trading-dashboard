@@ -733,7 +733,7 @@ with st.sidebar:
     st.subheader("FRED API Key")
     fred_key = st.text_input(
         "FRED API Key",
-        value="5758685d1d96b52dedd08d7933375085",
+        value=st.secrets.get("FRED_API_KEY", ""),
         type="password",
     )
 
