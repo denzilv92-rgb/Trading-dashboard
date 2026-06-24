@@ -1,0 +1,6 @@
+streamlit
+yfinance
+pandas
+feedparser
+fredapi
+openpyxl
